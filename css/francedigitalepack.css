@@ -1,0 +1,227 @@
+@font-face {
+  font-family: 'kelson_sansregular';
+  src: url('./../font/kelson_sans_regular.eot');
+  src: url('./../font/kelson_sans_regular.eot?#iefix') format('embedded-opentype'),
+    url('./../font/kelson_sans_regular.woff') format('woff'),
+    url('./../font/kelson_sans_regular.ttf') format('truetype'),
+    url('./../font/kelson_sans_regular.svg#kelson_sansregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #acd0f1;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.spaceT40 {
+  margin-top: 40px;
+}
+
+#header {
+  background: url('./../img/bandeau/background.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#header .title {
+  background-color : rgba(221,221,221,0.8);
+  width: 100%;
+  height: 109px;
+  position: relative;
+}
+
+#header .title .logo {
+  height: 109px;
+  text-align: center;
+}
+
+#header .title .logo img {
+  margin-top: 23px;
+  z-index: 100;
+}
+
+#header .nav {
+  font-size: 16px;
+  font-family: 'kelson_sansregular';
+  background-color : rgba(255,255,255,0.8);
+  color: #272932;
+  height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#header .nav {
+  margin: 0;
+}
+
+#header .nav li {
+  padding: 10px 13px 3px 13px;
+  margin-left: 5px;
+}
+
+#header .nav li:first-child {
+  margin-left: 0;
+}
+
+#header .nav li.logo-left {
+  margin-right: 75px;
+}
+
+#header .nav li.logo-right {
+  margin-left: 75px;
+}
+
+#header .nav li.active {
+  color: #f87f2e;
+  border-bottom: 3px solid #f87f2e;
+}
+
+#header .nav li a {
+  color: #272932;
+}
+
+#header .nav li a:hover {
+  background: none;
+}
+
+#header .nav li.register {
+  color: #ffffff;
+  background-color: #f87f2e;
+  padding-bottom: 6px;
+}
+
+#header .nav li.register a {
+  color: #ffffff;
+}
+
+#header .nav li.register a:hover {
+  background: none;
+}
+
+#header .baseline {
+  font-family: 'kelson_sansregular';
+  color: #ffffff;
+  text-align: center;
+  margin-top: 56px;
+  text-shadow: 0 0 20px #999;
+}
+
+#header .baseline .name {
+  margin-top: 56px;
+  font-size: 40px;
+}
+
+#header .baseline .description {
+  font-size: 26px;
+  margin-top: 28px;
+}
+
+#header .baseline .register {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+#header .baseline .date {
+  margin-bottom: 20px;
+}
+
+#header .sponsors {
+  text-align: center;
+  height: 90px;
+  background-color : rgba(255,255,255,0.8);
+}
+
+#header .sponsors img {
+  margin-top: 6px;
+}
+
+/*************************************/
+
+#pack {
+  font-family: 'kelson_sansregular';
+  background-color: #ffffff;
+  border-top: solid 3px #1a7dd2;
+  color: #1a7dd2;
+  padding-top: 62px;
+  padding-bottom: 70px;
+}
+
+#pack .module {
+  border: 3px dashed #f87f2e;
+}
+
+#pack .module .header,
+#pack .module .description {
+  padding: 10px;
+  overflow: hidden;
+}
+
+#pack .module .description {
+  padding-top: 0;
+  color: #999999;;
+}
+
+#pack .module .header .logo,
+#pack .module .header .title {
+  float: left;
+}
+
+#pack .module .header .title {
+  margin-left: 10px;
+}
+
+#pack .module h2 {
+  font-size: 26px;
+  line-height: 36px;
+  margin: 5px 0;
+}
+
+#pack .module h3 {
+  font-size: 16px;
+  margin: 0;
+}
+
+#pack .module .offre {
+  text-align: right;
+  color: #f87f2e;
+  padding: 0 10px 10px 10px;
+}
+
+#pack .module .offre i {
+  margin-left: 2px;
+  font-size: 20px;
+}
+
+#pack .contact a {
+  color: #f87f2e;
+}
+
+/*************************************/
+
+#footer {
+  height: 60px;
+  background-color: #272932;
+  border-top: 3px solid #ffffff;
+  color: #ffffff;
+  font-family: 'kelson_sansregular';
+  font-size: 12px;
+}
+
+#footer .copyright,
+#footer .contact {
+  margin-top: 24px;
+}
+
+#footer .logo {
+  margin-top: 13px;
+}
